@@ -12,7 +12,12 @@ This is the PCB design the NorCal's 49er QRP 40M CW transceiver. The original de
 Pictures
 ========
 
-The PCB design files can be found and PNG files, here.
+The PCB design files can be found as PNG files, here:
+
+  - https://github.com/alejolp/49er-qrp/raw/master/pcb1.png
+  - https://github.com/alejolp/49er-qrp/raw/master/pcb2.png
+  - https://github.com/alejolp/49er-qrp/raw/master/pcb3.png
+  - https://github.com/alejolp/49er-qrp/raw/master/sch1.png
 
 For some construction pictures you can visit my Flickr set:
 
