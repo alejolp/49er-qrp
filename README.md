@@ -9,6 +9,15 @@ This is the PCB design the NorCal's 49er QRP 40M CW transceiver. The original de
   - Manual by Doug Hendricks, KI6DS
   - PCB by Alejandro Santos, LU4EXT, alejolp@gmail.com
 
+Pictures
+========
+
+The PCB design files can be found and PNG files, here.
+
+For some construction pictures you can visit my Flickr set:
+
+  - http://www.flickr.com/photos/alejolp/sets/72157638988100786
+
 License
 =======
 
