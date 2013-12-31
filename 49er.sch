@@ -17154,6 +17154,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="SUPPLY20" library="supply2" deviceset="+9V" device=""/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X2" device="" value="KEY"/>
+<part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17228,6 +17229,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="SUPPLY20" gate="G$1" x="144.78" y="134.62"/>
 <instance part="SUPPLY21" gate="GND" x="144.78" y="127"/>
 <instance part="JP3" gate="G$1" x="91.44" y="12.7"/>
+<instance part="SUPPLY22" gate="GND" x="-5.08" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -17321,6 +17323,19 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 <wire x1="81.28" y1="12.7" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="L1" gate="G$1" pin="2"/>
+<junction x="2.54" y="96.52"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="104.14" x2="-15.24" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="96.52" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="A"/>
+<wire x1="-5.08" y1="96.52" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="104.14" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-15.24" y="96.52"/>
+<junction x="-5.08" y="96.52"/>
+<pinref part="SUPPLY22" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -17341,20 +17356,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="-5.08" y1="111.76" x2="2.54" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="2.54" y1="111.76" x2="7.62" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="L1" gate="G$1" pin="2"/>
-<junction x="2.54" y="96.52"/>
-<pinref part="C20" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="104.14" x2="-15.24" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="96.52" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="A"/>
-<wire x1="-5.08" y1="96.52" x2="2.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="104.14" x2="-5.08" y2="96.52" width="0.1524" layer="91"/>
-<junction x="-15.24" y="96.52"/>
-<junction x="-5.08" y="96.52"/>
 </segment>
 </net>
 <net name="N$7" class="0">
