@@ -345,7 +345,7 @@ UsedLibrary="/home/alejo/apps/eagle-6.5.0/lbr/zilog.lbr"
 [Win_1]
 Type="Schematic Editor"
 Loc="1765 497 2364 896"
-State=3
+State=1
 Number=2
 File="49er.sch"
 View="-40.2967 -0.442634 168.588 150.692"
