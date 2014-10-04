@@ -3,7 +3,11 @@ NorCal 49er QRP Eagle PCB
 
 This is the PCB design the NorCal's 49er QRP 40M CW transceiver. The original design can be found here:
 
-  http://www.norcalqrp.org/files/49erorigmnl.pdf
+  http://www.norcalqrp.org/files/49erOrigMnl.pdf
+  
+Some modificatins to this design can be found here:
+
+  http://www.amqrp.org/kits/49er/49mod.html
 
   - Designed by Wayne Burdick, N6KR
   - Manual by Doug Hendricks, KI6DS
